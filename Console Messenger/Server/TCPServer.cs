@@ -9,11 +9,11 @@ public class TCPServer
 
     private static bool bIsRunning = false;
 
-    private static int port = 5000;
+    private int port;
     StreamWriter writer;
     StreamReader reader;
 
-    public TCPServer()
+    public TCPServer(int nPort)
     {
         
     }

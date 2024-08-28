@@ -12,7 +12,7 @@ public class TCPClient
 
     private bool bIsConnected;
 
-    private string sUserName;
+    private string? sUserName;
     
     public TCPClient(string ipaddress, int port, string username)
     {
@@ -21,6 +21,11 @@ public class TCPClient
 
         this.sUserName = username;
         
+        HandleCommunication();
+    }
+
+    public void Start()
+    {
         HandleCommunication();
     }
 

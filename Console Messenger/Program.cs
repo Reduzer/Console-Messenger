@@ -19,14 +19,18 @@ namespace Program
         /// </summary>
         public static void Main()
         {
-            threading();
-            
             init();
+
+            m_client = new TCPClient(sIPAdress,nPort, sUserName);
+            m_server = new TCPServer(nPort);
+
+            threading();
         }
 
         private static void threading()
         {
-            
+            Thread tServer = new Thread(m_server.start);
+            Thread tClient = new Thread(m_client.Start);
         }
 
         private static void getIPandPort()
@@ -50,9 +54,6 @@ namespace Program
         {
             getIPandPort();
             getUserName();
-            
-            m_client = new TCPClient(sIPAdress, nPort, sUserName);
-            m_server = new TCPServer();
         }
     }
 }
