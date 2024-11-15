@@ -24,24 +24,19 @@ namespace Program
             m_client = new TCPClient(sIPAdress,nPort, sUserName);
             m_server = new TCPServer(nPort);
 
-            threading();
+            Console.Clear();
+
+            m_server.start(); 
+            m_client.Start();
         }
 
-        private static void threading()
-        {
-            Thread tServer = new Thread(m_server.start);
-            Thread tClient = new Thread(m_client.Start);
-        }
 
         private static void getIPandPort()
         {
             Console.WriteLine("Please write down the IPAdress you want to connect to: ");
             sIPAdress = Convert.ToString(Console.ReadLine());
-            //sIPAdress = "192.168.178.37";
 
-            Console.WriteLine("Please write the Port you want to communicate on: ");
-            nPort = Convert.ToInt32(Console.ReadLine());
-            //nPort = 5000;
+            nPort = 5000;
         }
 
         private static void getUserName()

@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\",
+  "WorkspaceRootPath": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\dev\\git\\console-messenger\\console messenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\users\\fdeubner\\documents\\github\\console-messenger\\console messenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\dev\\git\\console-messenger\\console messenger\\server\\tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\users\\fdeubner\\documents\\github\\console-messenger\\console messenger\\server\\tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|solutionrelative:server\\tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\dev\\git\\console-messenger\\console messenger\\client\\tcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\users\\fdeubner\\documents\\github\\console-messenger\\console messenger\\client\\tcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|solutionrelative:client\\tcpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,46 +22,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TCPClient.cs",
-              "DocumentMoniker": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\Client\\TCPClient.cs",
+              "DocumentMoniker": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Client\\TCPClient.cs",
               "RelativeDocumentMoniker": "Client\\TCPClient.cs",
-              "ToolTip": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\Client\\TCPClient.cs",
+              "ToolTip": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Client\\TCPClient.cs",
               "RelativeToolTip": "Client\\TCPClient.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T11:01:42.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T11:01:42.409Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TCPServer.cs",
-              "DocumentMoniker": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\Server\\TCPServer.cs",
+              "DocumentMoniker": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Server\\TCPServer.cs",
               "RelativeDocumentMoniker": "Server\\TCPServer.cs",
-              "ToolTip": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\Server\\TCPServer.cs",
+              "ToolTip": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Server\\TCPServer.cs",
               "RelativeToolTip": "Server\\TCPServer.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T09:58:03.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T09:58:03.981Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\Program.cs",
+              "ToolTip": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAAADcAAAAaAAAA",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA8wBoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T09:55:38.6Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
