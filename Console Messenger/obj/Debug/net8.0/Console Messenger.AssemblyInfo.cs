@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Console Messenger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9101570fc66cd7e9b2c1565459f314df02c5d7d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19dd935942f3410bd779e3c43176db21f54a6b1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Console Messenger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Console Messenger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

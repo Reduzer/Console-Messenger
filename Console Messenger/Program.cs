@@ -1,33 +1,23 @@
 ﻿using System;
-using Program.Client;
-using Program.Server;
+using TCPClient;
+using TCPServer;
 
 namespace Program
 {
     public class Program
     {
-        private static TCPClient m_client;
-        private static TCPServer m_server;
-        
-        private static string sIPAdress = String.Empty;
-        private static int nPort;
-
         private static string sUserName = String.Empty;
-        
-        /// <summary>
-        /// Start of the Program
-        /// </summary>
+        private static string sIPAdress = String.Empty;
+
+
         public static void Main()
         {
             init();
 
-            m_client = new TCPClient(sIPAdress,nPort, sUserName);
-            m_server = new TCPServer(nPort);
-
-            Console.Clear();
-
-            m_server.start(); 
-            m_client.Start();
+            TCPServer.TCPServer.Main();
+            TCPClient.TCPClient.ipaddress = sIPAdress;
+            TCPClient.TCPClient.ipaddress = sUserName;
+            TCPClient.TCPClient.Main();
         }
 
 
@@ -35,9 +25,8 @@ namespace Program
         {
             Console.WriteLine("Please write down the IPAdress you want to connect to: ");
             sIPAdress = Convert.ToString(Console.ReadLine());
-
-            nPort = 5000;
         }
+        
 
         private static void getUserName()
         {

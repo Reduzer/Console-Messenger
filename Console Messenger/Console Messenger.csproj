@@ -9,7 +9,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Util\" />
+      <Compile Remove="Util\**" />
+      <EmbeddedResource Remove="Util\**" />
+      <None Remove="Util\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TCPClient\TCPClient.csproj" />
+      <ProjectReference Include="..\TCPServer\TCPServer.csproj" />
     </ItemGroup>
 
 </Project>
