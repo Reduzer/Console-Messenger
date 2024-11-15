@@ -12,12 +12,12 @@ namespace Program
 
         public static void Main()
         {
-            init();
+            //init();
 
             TCPServer.TCPServer.Main();
-            TCPClient.TCPClient.ipaddress = sIPAdress;
-            TCPClient.TCPClient.ipaddress = sUserName;
-            TCPClient.TCPClient.Main();
+            //TCPClient.TCPClient.ipaddress = sIPAdress;
+            //TCPClient.TCPClient.ipaddress = sUserName;
+            //TCPClient.TCPClient.Main();
         }
 
 
