@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Console_Messenger;
+using System;
 using TCPClient;
 using TCPServer;
 
@@ -6,38 +7,46 @@ namespace Program
 {
     public class Program
     {
-        private static string sUserName = String.Empty;
-        private static string sIPAdress = String.Empty;
+        static bool ContinueRunning = true;
+        static string? inp;
 
+        static SocketBasedServer server = new SocketBasedServer();
+        static SocketBasedClient client = new SocketBasedClient();
 
         public static void Main()
         {
-            //init();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Program is Starting");
 
-            TCPServer.TCPServer.Main();
-            //TCPClient.TCPClient.ipaddress = sIPAdress;
-            //TCPClient.TCPClient.ipaddress = sUserName;
-            //TCPClient.TCPClient.Main();
-        }
+            Console.ForegroundColor = ConsoleColor.Gray;
 
+            Console.WriteLine("Please write the ip you want to connect to:");
+            inp = Console.ReadLine();
+            client.IP = inp;
 
-        private static void getIPandPort()
-        {
-            Console.WriteLine("Please write down the IPAdress you want to connect to: ");
-            sIPAdress = Convert.ToString(Console.ReadLine());
-        }
-        
+            Console.Clear();
 
-        private static void getUserName()
-        {
-            Console.WriteLine("Please write your Username");
-            sUserName = Convert.ToString(Console.ReadLine());
-        }
+            Thread tServer;
 
-        private static void init()
-        {
-            getIPandPort();
-            getUserName();
+            tServer = new Thread(server.RecieveWithServer);
+            tServer.Start();
+
+            try
+            {
+                while (ContinueRunning)
+                {
+                    inp = Convert.ToString(Console.ReadLine());
+
+                    ContinueRunning = client.Send(inp);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception caught!\n{0}", ex.Message);
+            }
+
+            Console.ReadKey();
+            
         }
     }
 }
