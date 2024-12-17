@@ -11,8 +11,7 @@ namespace TCPServer
 
         public static void Main()
         {
-            server = new Server();
-            server.start();
+            
         }
     }
 

@@ -8,21 +8,32 @@ using System.Threading.Tasks;
 
 namespace TCPServer
 {
-    internal class ServerTry
+    public class ServerTry
     {
+        private string m_sIPAdress;
+        private string m_sPortNumber;
+        public bool m_bIsRunning;
+
+        public ServerTry(string sIPAdress, string sPortNumber)
+        {
+            this.m_sPortNumber = sPortNumber;
+            this.m_sIPAdress = sIPAdress;
+        }
+
         public void test() 
         {
             try
             {
-                IPAddress ipAddress = IPAddress.Parse("10.30.126.138");
+                IPAddress ipAddress = IPAddress.Parse(m_sIPAdress);
+                int nPort = int.Parse(m_sPortNumber);
 
                 Console.WriteLine("Starting TCP listener...");
 
-                TcpListener listener = new TcpListener(ipAddress, 500);
+                TcpListener listener = new TcpListener(ipAddress, nPort);
 
                 listener.Start();
 
-                while (true)
+                while (m_bIsRunning)
                 {
                     Console.WriteLine("Server is listening on " + listener.LocalEndpoint);
 
@@ -46,6 +57,10 @@ namespace TCPServer
                 }
 
                 listener.Stop();
+            }
+            catch(SocketException e)
+            {
+                Console.WriteLine("Exception on socket! \n Message: " + e.Message);
             }
             catch (Exception e)
             {
