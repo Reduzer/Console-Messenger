@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\",
+  "WorkspaceRootPath": "C:\\dev\\git\\Console-Messenger\\Console Messenger\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\users\\fdeubner\\documents\\github\\console-messenger\\console messenger\\socketbasedserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|solutionrelative:socketbasedserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{2232212E-9E30-42A5-B8D8-15047292AC74}|..\\TCPClient\\TCPClient.csproj|c:\\dev\\git\\console-messenger\\tcpclient\\clienttry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/Master
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "SocketBasedServer.cs",
               "DocumentMoniker": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\SocketBasedServer.cs",
               "RelativeDocumentMoniker": "SocketBasedServer.cs",
@@ -46,6 +47,17 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+=======
+              "Title": "ClientTry.cs",
+              "DocumentMoniker": "C:\\dev\\git\\Console-Messenger\\TCPClient\\ClientTry.cs",
+              "RelativeDocumentMoniker": "..\\TCPClient\\ClientTry.cs",
+              "ToolTip": "C:\\dev\\git\\Console-Messenger\\TCPClient\\ClientTry.cs",
+              "RelativeToolTip": "..\\TCPClient\\ClientTry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:57:57.581Z",
+              "EditorCaption": ""
+>>>>>>> origin/Master
             }
           ]
         }
