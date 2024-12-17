@@ -8,15 +8,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Compile Remove="Util\**" />
-      <EmbeddedResource Remove="Util\**" />
-      <None Remove="Util\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\TCPClient\TCPClient.csproj" />
-      <ProjectReference Include="..\TCPServer\TCPServer.csproj" />
-    </ItemGroup>
-
+	<ItemGroup>
+		<Compile Remove="Util\**" />
+		<EmbeddedResource Remove="Util\**" />
+		<None Remove="Util\**" />
+	</ItemGroup>
 </Project>

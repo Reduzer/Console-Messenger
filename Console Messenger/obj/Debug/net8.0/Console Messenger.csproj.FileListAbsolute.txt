@@ -43,15 +43,3 @@ C:\dev\git\Console-Messenger\Console Messenger\bin\Debug\net8.0\Console Messenge
 C:\dev\git\Console-Messenger\Console Messenger\bin\Debug\net8.0\Console Messenger.pdb
 C:\dev\git\Console-Messenger\Console Messenger\obj\Debug\net8.0\Console Messenger.genruntimeconfig.cache
 C:\dev\git\Console-Messenger\Console Messenger\obj\Debug\net8.0\ref\Console Messenger.dll
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\obj\Debug\net8.0\Console Messenger.csproj.AssemblyReference.cache
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPClient.deps.json
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPClient.runtimeconfig.json
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPClient.exe
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPServer.deps.json
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPServer.runtimeconfig.json
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPServer.exe
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPClient.dll
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPServer.dll
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPClient.pdb
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\bin\Debug\net8.0\TCPServer.pdb
-C:\Users\FDeubner\Documents\GitHub\Console-Messenger\Console Messenger\obj\Debug\net8.0\Console .56D4CD78.Up2Date

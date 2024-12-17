@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\users\\fdeubner\\documents\\github\\console-messenger\\console messenger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\users\\fdeubner\\documents\\github\\console-messenger\\console messenger\\console messenger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|solutionrelative:console messenger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|c:\\users\\fdeubner\\documents\\github\\console-messenger\\console messenger\\socketbasedserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF46AAE2-4193-4480-BB8C-D5CBB4E6E14D}|Console Messenger.csproj|solutionrelative:socketbasedserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA5wBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:28:59.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Console Messenger",
+              "DocumentMoniker": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Console Messenger.csproj",
+              "RelativeDocumentMoniker": "Console Messenger.csproj",
+              "ToolTip": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\Console Messenger.csproj",
+              "RelativeToolTip": "Console Messenger.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-17T15:28:41.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SocketBasedServer.cs",
               "DocumentMoniker": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\SocketBasedServer.cs",
               "RelativeDocumentMoniker": "SocketBasedServer.cs",
               "ToolTip": "C:\\Users\\FDeubner\\Documents\\GitHub\\Console-Messenger\\Console Messenger\\SocketBasedServer.cs",
               "RelativeToolTip": "SocketBasedServer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T14:40:16.627Z",
               "EditorCaption": ""
